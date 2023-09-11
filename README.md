@@ -30,6 +30,8 @@ or you can choose the directory.
 access token to be able to clone the repository from GitHub if you didn't previously do so in the
 software setup instructions from Week 0 on Quercus.
 
+:D
+
 * Now that you have a copy of the code on your computer, you can proceed to work through the rest of the activity
 in IntelliJ. Open this `README.md` file in IntelliJ and in the top-right you can toggle between seeing the editor,
 editor+preview, or just the preview of this markdown file.
@@ -43,7 +45,7 @@ The markdown format is commonly used for things like readme files, as they allow
 which allows for basic typesetting when viewed while still being a plaintext format.
 
 Below is a blank checkbox:
-- [ ] Put an X in the [ ] to mark this as done!
+- [x] Put an X in the [ ] to mark this as done!
 
 You can edit this file directly to check off these checkboxes throughout the lab to mark things as done.
 Do so now for the checkbox above.
@@ -117,7 +119,7 @@ class FizzBuzz {
 }
 ```
 
-- [ ] Open `FizzBuzz.java` in the `src` directory and click the run button in the top left corner.
+- [x] Open `FizzBuzz.java` in the `src` directory and click the run button in the top left corner.
 
 If you don't see this button, you may need to mark `src` as the `Sources Root` for the project. You can do this
 by right-clicking the `src` directory in the `Project` tab and near the bottom of the context menu
@@ -131,8 +133,8 @@ You may never have seen Java before, but we bet you can puzzle out how it works.
 ## Task 1: Understanding some Java syntax
 
 Take a few minutes to read through this code and take guesses at what different pieces of
-the code are doing. For example, what's the Java version of Python's `and`? What's going
-on with that weird `for` loop? As you do this, you might find it useful to write down your
+the code are doing. For example, what's the Java version of Python's `and`? [&&] What's going
+on with that weird `for` loop? [Starts at 1, ends at 99, increments by +1] As you do this, you might find it useful to write down your
 own implementation in Python to help you begin to create a mapping between the two languages.
 
 - [ ] Make note of any specific Java syntax which stands out to you and compare what you
@@ -160,7 +162,7 @@ Later in this course, you'll learn what all that mess means, but for now it is e
 
 ### Task 1.1: Rewrite this using `while`
 
-- [ ] You've puzzled through how Java `for` and `if` statements work; now rewrite this
+- [x] You've puzzled through how Java `for` and `if` statements work; now rewrite this
 to use a `while` loop instead of a `for` loop.
 
 ## How to test this code
@@ -179,7 +181,7 @@ line or the closing brace `}` of the loop.
 
 3. Immediately, type the method name you want, maybe something like `doFizzBuzz`.
 
-- [ ] Rerun the program to verify.
+- [x] Rerun the program to verify.
 
 That's your first big IntelliJ trick! There are lots more.
 
@@ -209,9 +211,9 @@ a sequence of three git commands:
 3. `git push`
    - this last step is what actually sends your committed changes to your remote GitHub repository.
 
-- [ ] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
+- [x] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
 
-- [ ] repeat the above steps for `README.md` (or try using the approach below).
+- [x] repeat the above steps for `README.md` (or try using the approach below).
 
 Tip: You can also use IntelliJ to execute these same steps using the graphical user interface it provides.
 If you have followed the software installation instructions, you should see `Git` in the menu bar at the top.
